@@ -8,15 +8,15 @@ The F1 Fan Hub is a dynamic dashboard for Formula 1 enthusiasts. Users can regis
 
 ## Tech Stack & Tools
 
-**Backend:** Python (Flask) 
-**Database:** SQLite3 
-**Frontend:** HTML5, CSS3 (Custom Grid & Flexbox layouts)  
-**Authentication:** Werkzeug Security (Password Hashing)  
-**Data Source:** [Jolpi API](https://www.google.com/search?q=https://api.jolpi.ca/)for live standings  
+* **Backend:** Python (Flask) 
+* **Database:** SQLite3 
+* **Frontend:** HTML5, CSS3 (Custom Grid & Flexbox layouts)  
+* **Authentication:** Werkzeug Security (Password Hashing)  
+* **Data Source:** [Jolpi API](https://www.google.com/search?q=https://api.jolpi.ca/)for live standings  
 
 ## Learning Journey & Resources
-**CS50 Basics:** Used SQL for user data management and Flask for routing and session handling .
-**AI Collaboration:** Leveraged Gemini to assist with complex CSS challenges, specifically for selecting team-accurate color palettes and implementing custom font files .
+* **CS50 Basics:** Used SQL for user data management and Flask for routing and session handling .
+* **AI Collaboration:** Leveraged Gemini to assist with complex CSS challenges, specifically for selecting team-accurate color palettes and implementing custom font files .
 
 ### **Documentation Referenced**
 
@@ -27,9 +27,9 @@ The F1 Fan Hub is a dynamic dashboard for Formula 1 enthusiasts. Users can regis
 
 ## Key Features
 
-  **Custom Typography:** Features the premium **Costella** handwritten font for driver signatures and the **Formula1 Display** font for a brand-accurate feel .
-  **Dynamic Theming:** The dashboard UI (borders, buttons, shadows) changes color based on the selected team's identity .
-  **Responsive Standings:** Live-fetched data for both Constructor and Driver world championships .
+ * **Custom Typography:** Features the premium **Costella** handwritten font for driver signatures and the **Formula1 Display** font for a brand-accurate feel .
+ * **Dynamic Theming:** The dashboard UI (borders, buttons, shadows) changes color based on the selected team's identity .
+ * **Responsive Standings:** Live-fetched data for both Constructor and Driver world championships .
 
 ## How to Run
 
