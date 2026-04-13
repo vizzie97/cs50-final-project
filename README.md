@@ -8,29 +8,28 @@ The F1 Fan Hub is a dynamic dashboard for Formula 1 enthusiasts. Users can regis
 
 ## Tech Stack & Tools
 
-  * [cite_start]**Backend:** Python (Flask) [cite: 1]
-  * [cite_start]**Database:** SQLite3 [cite: 1]
-  * [cite_start]**Frontend:** HTML5, CSS3 (Custom Grid & Flexbox layouts) [cite: 1]
-  * [cite_start]**Authentication:** Werkzeug Security (Password Hashing) [cite: 1]
-  * [cite_start]**Data Source:** [Jolpi API](https://www.google.com/search?q=https://api.jolpi.ca/)for live standings [cite: 1]
+**Backend:** Python (Flask) 
+**Database:** SQLite3 
+**Frontend:** HTML5, CSS3 (Custom Grid & Flexbox layouts)  
+**Authentication:** Werkzeug Security (Password Hashing)  
+**Data Source:** [Jolpi API](https://www.google.com/search?q=https://api.jolpi.ca/)for live standings  
 
 ## Learning Journey & Resources
-
-  * [cite_start]**CS50 Basics:** Used SQL for user data management and Flask for routing and session handling[cite: 1].
-  * [cite_start]**AI Collaboration:** Leveraged Gemini to assist with complex CSS challenges, specifically for selecting team-accurate color palettes and implementing custom font files[cite: 1].
+**CS50 Basics:** Used SQL for user data management and Flask for routing and session handling .
+**AI Collaboration:** Leveraged Gemini to assist with complex CSS challenges, specifically for selecting team-accurate color palettes and implementing custom font files .
 
 ### **Documentation Referenced**
 
-  * [cite_start]**Flask & Jinja2:** Deep dives into template inheritance and session management[cite: 1].
-  * [cite_start]**MDN Web Docs:** Referenced for CSS Custom Properties (Variables) and the `backdrop-filter` property for glassmorphism[cite: 1].
-  * [cite_start]**CSS-Tricks:** Used for mastering Fluid Grid columns and flexbox alignment[cite: 1].
-  * [cite_start]**W3Schools:** Referenced for CSS transitions and pseudo-elements (navigation hover effects)[cite: 1].
+  **Flask & Jinja2:** Deep dives into template inheritance and session management .
+  **MDN Web Docs:** Referenced for CSS Custom Properties (Variables) and the `backdrop-filter` property for glassmorphism .
+  **CSS-Tricks:** Used for mastering Fluid Grid columns and flexbox alignment .
+  **W3Schools:** Referenced for CSS transitions and pseudo-elements (navigation hover effects) .
 
 ## Key Features
 
-  * [cite_start]**Custom Typography:** Features the premium **Costella** handwritten font for driver signatures and the **Formula1 Display** font for a brand-accurate feel[cite: 1].
-  * [cite_start]**Dynamic Theming:** The dashboard UI (borders, buttons, shadows) changes color based on the selected team's identity[cite: 1].
-  * [cite_start]**Responsive Standings:** Live-fetched data for both Constructor and Driver world championships[cite: 1].
+  **Custom Typography:** Features the premium **Costella** handwritten font for driver signatures and the **Formula1 Display** font for a brand-accurate feel .
+  **Dynamic Theming:** The dashboard UI (borders, buttons, shadows) changes color based on the selected team's identity .
+  **Responsive Standings:** Live-fetched data for both Constructor and Driver world championships .
 
 ## How to Run
 
