@@ -46,7 +46,7 @@ cd cs50-final-project
 
 4. Set Up a Virtual Environment (Recommended)
 This keeps the project dependencies isolated from your global Python installation:
----
+
 Bash
 # Create the environment
 python -m venv venv
@@ -56,13 +56,13 @@ venv\Scripts\activate
 
 # Activate it (Mac/Linux)
 source venv/bin/activate
----
+
 4. Install Dependencies
 Install all required libraries (Flask, CS50, Requests, etc.) using the provided requirements file:
----
+
 Bash
 pip install -r requirements.txt
----
+
 5. Database Configuration
 The project uses SQLite.
 
@@ -82,12 +82,12 @@ Once the server is running, open your web browser and navigate to:
 http://127.0.0.1:5000
 
 Project Structure
-.
-├── app.py              # Main Flask application logic
-├── f1.db               # SQLite database for users & preferences
-├── requirements.txt    # List of Python dependencies
-├── static/             # Assets (CSS, Fonts, Team Images)
-│   ├── css/
-│   ├── fonts/          # Includes Costella.ttf & F1-Bold.otf
-│   └── images/         # Constructor & Driver assets
-└── templates/          # HTML files (index, login, standings, etc.)
+
+* ├── app.py              # Main Flask application logic
+* ├── f1.db               # SQLite database for users & preferences
+* ├── requirements.txt    # List of Python dependencies
+* ├── static/             # Assets (CSS, Fonts, Team Images)
+* │   ├── css/
+* │   ├── fonts/          # Includes Costella.ttf & F1-Bold.otf
+* │   └── images/         # Constructor & Driver assets
+* └── templates/          # HTML files (index, login, standings, etc.)
