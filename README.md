@@ -32,20 +32,62 @@ The F1 Fan Hub is a dynamic dashboard for Formula 1 enthusiasts. Users can regis
  * **Responsive Standings:** Live-fetched data for both Constructor and Driver world championships .
 
 ## How to Run
+To run the F1 Fan Hub on your local machine, follow these steps:
 
-1. Clone the repo:
-   git clone https://github.com/yourusername/cs50-final-project.git
+1. Prerequisites
+Ensure you have Python 3.x installed on your system. You will also need pip (Python's package installer).
 
-2. Install dependencies:
-   pip install -r requirements.txt
+2. Clone the Repository
+Open your terminal or command prompt and run:
 
-3. Run the app:
-   python app.py
-   Ensure `f1.db` is in the root directory with a `users` table containing `id`, `username`, `hash`, `team`, and `driver`.
+Bash
+git clone https://github.com/vizzie_97E/cs50-final-project.git
+cd cs50-final-project
 
-4. Open in browser:
-   http://127.0.0.1:5000
+4. Set Up a Virtual Environment (Recommended)
+This keeps the project dependencies isolated from your global Python installation:
+---
+Bash
+# Create the environment
+python -m venv venv
 
-## Final Notes
+# Activate it (Windows)
+venv\Scripts\activate
 
-**Built for the CS50 Final Project.**
+# Activate it (Mac/Linux)
+source venv/bin/activate
+---
+4. Install Dependencies
+Install all required libraries (Flask, CS50, Requests, etc.) using the provided requirements file:
+---
+Bash
+pip install -r requirements.txt
+---
+5. Database Configuration
+The project uses SQLite.
+
+Ensure the f1.db file is in the root directory.
+
+Note for Localhost: Ensure the database connection in app.py is set to the relative path:
+db = SQL("sqlite:///f1.db")
+
+6. Start the Engines
+Run the Flask application:
+---
+Bash
+python app.py
+---
+7. Access the Dashboard
+Once the server is running, open your web browser and navigate to:
+http://127.0.0.1:5000
+
+Project Structure
+.
+├── app.py              # Main Flask application logic
+├── f1.db               # SQLite database for users & preferences
+├── requirements.txt    # List of Python dependencies
+├── static/             # Assets (CSS, Fonts, Team Images)
+│   ├── css/
+│   ├── fonts/          # Includes Costella.ttf & F1-Bold.otf
+│   └── images/         # Constructor & Driver assets
+└── templates/          # HTML files (index, login, standings, etc.)
