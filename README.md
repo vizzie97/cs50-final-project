@@ -41,7 +41,7 @@ Ensure you have Python 3.x installed on your system. You will also need pip (Pyt
 Open your terminal or command prompt and run:
 
 Bash
-git clone https://github.com/vizzie_97E/cs50-final-project.git
+git clone https://github.com/vizzie_97/cs50-final-project.git
 cd cs50-final-project
 
 4. Set Up a Virtual Environment (Recommended)
